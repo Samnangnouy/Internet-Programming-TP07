@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
   });
 })
 app.get('/detail', function (req, res) {
-    fs.readFile('src/fetchapi-detail.html', 'utf8', (err, data) => {
+    fs1.readFile('src/fetchapi-detail.html', 'utf8', (err, data) => {
         if (err) {
           console.error(err);
           return;
