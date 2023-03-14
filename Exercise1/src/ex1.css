@@ -1,0 +1,73 @@
+.container{
+    width: 60%;
+    height: 90vh;
+    border: 2px solid black;
+    margin: auto;
+}
+.emoji{
+    margin-top: 30px;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-family: 'Shantell Sans', sans-serif;
+    word-spacing: 3px;
+    margin-top: 0px;
+}
+button{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(125, 125, 235);
+    border: 0px solid black;
+    margin-bottom: 30px;
+}
+button.btn{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 8px;
+}
+#wrapper{
+    width: 70%;
+    height: 40%;
+    background-color: azure;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.load{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    color: rgb(44, 103, 122);
+}
+.activity-name{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.type{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.type i{
+    margin-right: 5px;
+    color: rgb(30, 132, 167);
+}

@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    padding: 20px;
+}
+.contain{
+    margin: auto;
+    border: none;
+    width: 45vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: aquamarine;
+    padding: 12px;
+    overflow-y: auto;
+    border-radius: 10px;
+}
+.detail{
+    margin: auto;
+    border: none;
+    width: 45vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 12px;
+    overflow-y: auto;
+    border-radius: 10px;
+}
+.loading {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 500px;
+}
+.loading .loading1 {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid black;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: black transparent transparent transparent;
+}
+.loading .loading2 {
+    animation-delay: -0.45s;
+}
+.loading .loading3 {
+    animation-delay: -0.3s;
+}
+.loading .loading4 {
+    animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.wrapper:hover{
+    background-color: rgb(180, 177, 177);
+}
